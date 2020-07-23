@@ -20,20 +20,21 @@
         </div>
     </div>
     <div id="transaction-area">
+        <h3 id="owner" class="text-center">Founder & CEO <br> Dev King S.R.</h3>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-8 col-sm-12 col-lg-4">
                 <div class="deposit">
                     <h5>Deposit</h5>
                     <h2>$ <span id="currentDeposit">00</span></h2>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-8 col-sm-12 col-lg-4">
                 <div class="withdraw">
                     <h5>Withdraw</h5>
                     <h2>$ <span id="currentWithdraw">00</span></h2>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-8 col-sm-12 col-lg-4">
                 <div class="balance">
                     <h5>Balance</h5>
                     <h2>$ <span id="currentBalance">1240</span></h2>
@@ -61,6 +62,7 @@
     </div>
 
     <script>
+        // document.getElementById('owner').style.fontStyle = 'italic'
         // login button event handler
         var loginBtn = document.getElementById('login');
         loginBtn.addEventListener('click', function(){
